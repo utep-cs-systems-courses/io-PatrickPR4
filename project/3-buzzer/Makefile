@@ -20,4 +20,4 @@ clean: $^
 	rm -f *.o *.elf
 
 buzzer.c: buzzer.h
-buzzerMain.c: buzzer.h
+buzzerMain.o: buzzer.h
